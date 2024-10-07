@@ -1,0 +1,23 @@
+
+Overall{}
+
+UI giao diện đầu tiên: 
+login 
+
+
+	- employee( mỗi nhân viên có 1 tài khoản đăng nhập giả dụ nên mật khẩu sẽ đồng loạt là null <cần thanh mật khẩu nhưng không cần thiết phải đặt>)
+			- co the xem muc luong cua ban than trong thang
+			- viet don, thu tu, gui den truong nhom/ admin quan ly phan xuong/ sep
+			- xem lịch làm việc, xem điểm danh, lương từng ngày
+
+	- truong nhom ( mỗi trưởng nhóm/xưởng có 1 tài khoản đăng nhập giả dụ nên mật khẩu sẽ đồng loạt là null <cần thanh mật khẩu nhưng không cần thiết phải đặt>)
+			- quan ly cac thanh vien trong nhom 
+			- taking note cac ngay nghi cua nhan vien
+			- báo cáo điểm danh theo ngày
+	
+	- admin - 1 tài khoản duy nhất
+			- quản lý tổng...
+			- chinh sua chi tiet nhan vien, tìm kiếm, ke hoach lam viec, 
+			bonus luong, bla bla
+			- 
+
