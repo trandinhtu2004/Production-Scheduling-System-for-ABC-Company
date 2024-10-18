@@ -1,7 +1,7 @@
 
 Overall{}
 
-UI giao diện đầu tiên: 
+
 login 
 
 
@@ -19,5 +19,5 @@ login
 			- quản lý tổng...
 			- chinh sua chi tiet nhan vien, tìm kiếm, ke hoach lam viec, 
 			bonus luong, bla bla
-			- 
-
+			- lãi lỗ của kế hoạch tháng
+	- (gộp tất cả employee, teamleader, admin vào một table tên account và tạo một table phân quyền liên kết, khi login thì mỗi employee, leader admin sẽ có 1 account riêng)

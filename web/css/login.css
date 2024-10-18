@@ -1,0 +1,85 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 15, 2024, 8:39:14 PM
+    Author     : ADMIN
+*/
+/* Center everything */
+     /* Center everything */
+       body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Container for the login forms */
+        .login-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 60%;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+
+        /* Styling for each form box */
+        .login-box {
+            width: 45%;
+            padding: 20px;
+        }
+
+        /* Input field labels and layout */
+        .login-box label {
+            margin-right: 10px;
+        }
+
+        .login-box input {
+            padding: 8px;
+            margin-bottom: 10px;
+            width: 100%;
+            font-size: 14px;
+        }
+
+        .login-box input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            border: none;
+            padding: 10px 0;
+        }
+
+        .login-box input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        /* Divider line between the forms */
+        .divider {
+            border-left: 2px solid #ccc;
+            height: 200px;
+            margin: 0 20px;
+        }
+
+        /* Back button centered below the forms */
+        .back-button {
+            width: 20%;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .back-button a {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .back-button a:hover {
+            background-color: #0056b3;
+        }

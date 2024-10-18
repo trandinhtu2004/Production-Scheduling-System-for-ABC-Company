@@ -1,0 +1,97 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 15, 2024, 8:09:53 PM
+    Author     : ADMIN
+*/
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header {
+    background-color: #f4f4f4;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.company-info {
+    font-size: 14px;
+}
+
+.company-info p {
+    margin: 5px 0;
+}
+
+.login-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Main content styling */
+.main-content {
+    padding: 20px;
+}
+
+.search-section {
+    margin-bottom: 20px;
+}
+
+.search-section input, .search-section select {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.search-section button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-section button:hover {
+    background-color: #0056b3;
+}
+
+/* Employee list table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.hidden {
+    display: none; /* This class can be applied to hide the employee list */
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+}
